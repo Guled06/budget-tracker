@@ -3,13 +3,13 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('static').then( cache => {
       return cache.addAll([
-        './',
-        './index.html',
-        './manifest.webmanifest',
-        './assets/css/style.css',
-        './assets/images/brandenburg.jpg',
-        './assets/images/reichstag.jpg',
-        './assets/images/map.jpg',
+        '/',
+        '/db.js',
+        '/index.html',
+        '/manifest.webmanifest',
+        '/css/styles.css',
+        '/icons/icon-192x192.png',
+        '/icons/icon-512x512.png',
       ]);
     })
   );
