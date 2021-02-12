@@ -12,6 +12,6 @@ Heroku Link: https://tracking-my-budget.herokuapp.com/
 
 # Screenshots Of App:
 
-<img src="docs/budgetscreenshot.png" src="Screenshot of the Budget Tracker app">
+<img src="docs/Budgetscreenshot.png" src="Screenshot of the Budget Tracker app">
 
 
